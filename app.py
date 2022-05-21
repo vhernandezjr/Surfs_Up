@@ -102,3 +102,11 @@ def stats(start=None, end=None):
     return jsonify(temps=temps)
 
 #Flask Check
+# /api/v1.0/temp/2017-06-01/2017-06-30
+#{
+#temps: [
+#71,
+#77.21989528795811,
+#83
+#]
+#}
